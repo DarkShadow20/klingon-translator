@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root{
+    --primary-color: #60A5FA;
+}
+
+
+body{
+    font-family: 'Raleway','sans-serif';
+}
+.section-bl{
+    background-color: var(--primary-color);
+    width: 100%;
+    border: none;
+}
+
+#btntranslate{
+    background-color:var(--primary-color);
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    border: none;
+}
+
+.fa-exchange-alt{
+    color: white;
+    font-size: 40px;
+}

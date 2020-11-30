@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root{
+    --primary-color: #60A5FA;
+}
+::placeholder{
+  color: #ffffff;
+}
+
+body{
+  background-color: var(--primary-color);
+  font-family: "Raleway","sans-serif";
+  background: linear-gradient(90deg,var(--primary-color) 50%,#ffffff 50%)
+} 
+.header{
+  margin: 1% 0 4% 40%;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #ffffff;
+  display: inline-block;
+}
+.header-right{
+  margin: 0 0 0 6%;
+  display: inline-block;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+.section-up{
+  color: #ffffff;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 0 10% 0% 36%;
+  display: inline-block;
+}
+
+.section-bottom{
+  color: #ffffff;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 0 0 0 10%;
+  display: inline-block;
+  color: var(--primary-color);
+}
+#txtInput{
+  background-color: var(--primary-color);
+  font-family: inherit;
+  font-weight: bolder;
+  width: 40%;
+  border: none;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  margin: 5% 0 0 0;
+  resize: none;
+  outline: none;
+}
+
+#btntranslate{
+  background-color:var(--primary-color);
+  border-radius: 50%;
+  padding: 20px;
+  display: inline-block;
+  margin: 5% 0% 0% 48%;
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 0.5px #ffffff;
+  cursor: pointer;
+}
+#btntranslate:active{
+  background-color: var(--primary-color);
+  box-shadow: 0 1px #666666;
+  transform: translateY(1px);
+}
+#txtOutput{
+  background-color: #ffffff;
+  border:1px solid #ffffff;
+  width: 10%;
+  margin: 2% 0 0 65%;
+  box-sizing: border-box;
+  min-height: 10vh;
+  color: var(--primary-color);
+  font-size: x-large;
+  font-weight: bolder;
+}
