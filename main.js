@@ -10,12 +10,6 @@ function getTranslationURL(input)
     return serverURL + "?" + "text="+input
 }
 
-function showSpinner(){
-    spinner.className="show";
-    setTimeout(()=> {
-        spinner.className=spinner.className.replace("show","");
-    },500)
-}
 
 function errorHandler(error){
     alert("Something happened to server try again later")
@@ -23,7 +17,7 @@ function errorHandler(error){
 
 function clickHandler()
 {
-    showSpinner()
+    
     var inputText=Input.value
 
     fetch(getTranslationURL(inputText))

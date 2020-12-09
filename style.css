@@ -13,32 +13,32 @@ body{
   background: linear-gradient(90deg,var(--primary-color) 50%,#ffffff 50%)
 } 
 .header{
-  margin: 1% 0 4% 40%;
+  margin: 9px 0 30px  600px;
   font-size: xx-large;
   font-weight: bolder;
   color: #ffffff;
   display: inline-block;
 }
 .header-right{
-  margin: 0 0 0 6%;
+  margin: 9px 0 30px 450px;
   display: inline-block;
   font-size: xx-large;
   font-weight: bolder;
   color: var(--primary-color);
 }
-.section-up{
+.section-left{
   color: #ffffff;
   font-size: x-large;
   font-weight: bolder;
-  margin: 0 10% 0% 36%;
+  margin: 0 100px 0% 700px;
   display: inline-block;
 }
 
-.section-bottom{
+.section-right{
   color: #ffffff;
   font-size: x-large;
   font-weight: bolder;
-  margin: 0 0 3% 11%;
+  margin: 0 0 100px 450px;
   display: inline-block;
   color: var(--primary-color);
 }
