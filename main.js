@@ -1,9 +1,9 @@
-var btnTranslate=document.querySelector("#btntranslate");
-var Input=document.querySelector("#txtInput");
-var Output=document.querySelector("#txtOutput")
+let btnTranslate=document.querySelector("#btntranslate");
+let Input=document.querySelector("#txtInput");
+let Output=document.querySelector("#txtOutput")
 const spinner=document.getElementById("spinner");
 
-var serverURL= "https://api.funtranslations.com/translate/klingon.json"
+const serverURL= "https://api.funtranslations.com/translate/klingon.json"
 
 function getTranslationURL(input)
 {
@@ -18,12 +18,12 @@ function errorHandler(error){
 function clickHandler()
 {
     
-    var inputText=Input.value
+    let inputText=Input.value
 
     fetch(getTranslationURL(inputText))
     .then(response =>response.json())
     .then(json => {
-        var translation=json.contents.translated
+        let translation=json.contents.translated
         Output.innerText=translation;
     })
     .catch(errorHandler)
